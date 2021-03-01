@@ -1,8 +1,8 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Container from "../components/Container";
-import Row from "../components/Row";
-import Col from "../components/Col";
+//import Row from "../components/Row";
+//import Col from "../components/Col";
 import "./style.css"
 
 function Main() {
@@ -13,13 +13,10 @@ function Main() {
         <h2>Aaron's space!</h2>
       </Hero>
       <Container style={{ marginTop: 30 }}>
-        <Row>
-          <Col size="md-12">
+
             <h1>Welcome!</h1>
-          </Col>
-        </Row>
-        <Row>
-          <Col size="md-12">
+
+
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet diam tortor, id
               consequat mauris ullamcorper eu. Orci varius natoque penatibus et magnis dis
@@ -125,8 +122,7 @@ function Main() {
               interdum elit pulvinar eu. Quisque vitae quam dapibus, vestibulum mauris quis, laoreet
               massa.
             </p>
-          </Col>
-        </Row>
+
       </Container>
     </div>
   );
