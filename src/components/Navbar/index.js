@@ -13,10 +13,10 @@ function Navbar() {
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <Link to="/"className="nav-link tm-nav-link">About</Link>
+                            <Link to="/about"className="nav-link tm-nav-link">About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/discover"className="nav-link tm-nav-link">Discover</Link>
+                            <Link to="/idkyet"className="nav-link tm-nav-link">Discover</Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/search"className="nav-link tm-nav-link">Search</Link>

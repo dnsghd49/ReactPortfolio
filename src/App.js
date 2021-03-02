@@ -15,9 +15,8 @@ function App() {
         <Navbar />
         <Wrapper>
           <Route exact path="/" component={Main} />
-          <Route exact path="/about" component={Main} />
-          <Route exact path="/idkyet" component={idkyet} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/idkyet" component={idkyet} />
         </Wrapper>
         <Footer />
       </div>

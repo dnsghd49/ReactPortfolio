@@ -3,3 +3,9 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .abground {
+    width: 100%;
+    min-height: 600px;
+    background-image: linear-gradient(to bottom, #d59254, #cf7693);
+  }
