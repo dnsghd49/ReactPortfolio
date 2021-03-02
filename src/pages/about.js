@@ -1,10 +1,4 @@
 import React, { Component } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-//import { Link } from "react-router-dom";
-//import Container from "../components/Container";
-//import SearchForm from "../components/SearchForm";
-//import SearchResults from "../components/SearchResults";
-//import Alert from "../components/Alert";
 
 class About extends Component {
   render() {
@@ -26,7 +20,6 @@ class About extends Component {
   }
 }
 
-<FontAwesomeIcon icon="fab fa-github-square" />
 
 
 
