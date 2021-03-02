@@ -12,12 +12,14 @@ class About extends Component {
       <div className="abground">
         <p className="abpa">Aaron's Github Page</p>
         <p class="contain">
-          test
-          <br />testestsetst
+          Here you can see Ayron's project through Github his page! those projects are not so great, normal looking projects so don't expect some crazy magicall stuff xD
+          <br />The button below will guid you to my Github page.
         </p>
 
         <div className="abpa">
-          <a className="nav-link tm-nav-link" href="https://github.com/dnsghd49">BTN (for now)</a>
+          <a className="nav-link tm-nav-link" href="https://github.com/dnsghd49">
+            <button type="submit" className="githubBtn" href="https://github.com/dnsghd49">GitHub</button>
+          </a>
         </div>
       </div>
     );

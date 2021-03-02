@@ -1,20 +1,22 @@
-import React, { Component } from "react";
-//import Card from "../components/Card";
-//import Alert from "../components/Alert";
+import React from 'react';
+import "./style.css";
 
-class idkyet extends Component {
-  state = {
-    image: "",
-    match: false,
-    matchCount: 0
-  };
+function Login() {
+  return (
+    <div className="genBackground">
+      <div className="loginContainer">
+        <h1 className="login">
+          Login
+                </h1>
+        <form className="loginInput">
+          <input type="email" className="form-control" aria-describedby="email" placeholder="Email" />
+          <input type="password" className="form-control" aria-describedby="password" placeholder="Password" />
+          <button type="submit" className="loginBtn">Login</button>
 
-  render() {
-    return (
-      <div>
+        </form>
       </div>
-    );
-  }
+    </div>
+  )
 }
 
-export default idkyet;
+export default Login;
