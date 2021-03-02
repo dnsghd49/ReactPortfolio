@@ -19,7 +19,7 @@ function Navbar() {
                             <Link to="/idkyet"className="nav-link tm-nav-link">Discover</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/search"className="nav-link tm-nav-link">Search</Link>
+                            <Link to="/"className="nav-link tm-nav-link">idkyet</Link>
                         </li>
                     </ul>
                 </div>
