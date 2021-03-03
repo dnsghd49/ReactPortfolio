@@ -35,8 +35,8 @@
     text-align: center;
 }
 
-.githubBtn{
-    font-family: 'Playfair Display', serif;
+.githubBtn {
+    font-family: "Playfair Display", serif;
     font-size: 20px;
     width: 200px;
     padding: 10px;
@@ -44,4 +44,10 @@
     border-style: solid;
     border-color: black;
     margin-top: 30px;
+}
+
+.login {
+    text-align: center;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 2px rgb(139, 130, 130);
 }

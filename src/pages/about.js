@@ -14,7 +14,7 @@ class About extends Component {
 
         <div className="abpa">
           <a className="nav-link tm-nav-link" href="https://github.com/dnsghd49">
-            <button type="submit" className="githubBtn" href="https://github.com/dnsghd49">GitHub</button>
+            <button type="submit" className="githubBtn">GitHub</button>
           </a>
           <Me />
         </div>
