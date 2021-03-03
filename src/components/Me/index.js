@@ -6,9 +6,9 @@ console.log(me); // /logo.84287d09.png
 
 function Me() {
   console.log(me);
-  return(
-      <div>
-    <img src={me} alt="me" />
+  return (
+    <div>
+      <img className="picc" src={me} alt="me" />
     </div>
   );
 }
