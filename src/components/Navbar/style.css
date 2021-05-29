@@ -1,64 +1,44 @@
-.tm-navbar {
-  position: fixed;
-  width: 100%;
-  z-index: 1000;
-  background-color: transparent;
-  transition: all 0.3s ease;
+nav {
+  max-width: 960px;
+  mask-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      #ffffff 25%,
+      #ffffff 75%,
+      rgba(255, 255, 255, 0) 100%
+  );
+  margin: 0 auto;
+  padding: 60px 0;
 }
 
-.tm-navbar.scroll {
-  background-color: white;
-  border-bottom: 1px solid #e9ecef;
+nav ul {
+  text-align: center;
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.2) 25%,
+      rgba(255, 255, 255, 0.2) 75%,
+      rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
 }
 
-.navbar-brand {
-  color: white;
-  font-size: 1.4rem;
-  font-weight: bold;
+nav ul li {
+  display: inline-block;
 }
 
-.navbar-brand:hover,
-.tm-navbar.scroll .navbar-brand:hover {
-  color: #3496d8;
+nav ul li a {
+  padding: 18px;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
 }
 
-.tm-navbar.scroll .navbar-brand {
-  color: #8f8f8f;
-}
-
-.nav-item {
-  list-style: none;
-}
-
-.tm-nav-link {
-  color: white;
-}
-
-.tm-navbar.scroll .tm-nav-link {
-  color: #8f8f8f;
-}
-
-.tm-navbar.scroll .tm-nav-link:hover,
-.tm-navbar.scroll .tm-nav-link.current,
-.tm-nav-link:hover {
-  color: #3496d8;
-}
-
-.navbar-toggler {
-  border: 1px solid white;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.navbar-toggler-icon {
-  color: white;
-  padding-top: 6px;
-}
-
-.tm-navbar.scroll .navbar-toggler {
-  border: 1px solid #8f8f8f;
-}
-
-.tm-navbar.scroll .navbar-toggler-icon {
-  color: #8f8f8f;
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(198, 214, 255, 0.7);
 }
