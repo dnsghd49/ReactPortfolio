@@ -38,7 +38,8 @@
 }
 
 .only {
-  background-color:black;
+  background-color:linear-gradient(to right, rgba(3 4 34), rgba(255 0 0 / 12%));
+  ;
 }
 
 body {
