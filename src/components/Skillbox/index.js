@@ -17,7 +17,7 @@ import wixtwo from './img/wix.webp';
 
 function Skillbox() {
     return (
-        <section className="skills">
+        <section>
             <div className="container">
                 <div className="row">
                     <div className="col-sm">
