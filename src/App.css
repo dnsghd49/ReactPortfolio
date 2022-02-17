@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-image: linear-gradient(to right, rgba(3 4 34), rgba(255 0 0 / 12%));
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,13 +35,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.only {
-  background-color:linear-gradient(to right, rgba(3 4 34), rgba(255 0 0 / 12%));
-  ;
-}
-
-body {
-  background-image: linear-gradient(to right, rgba(3 4 34), rgba(255 0 0 / 12%));
 }

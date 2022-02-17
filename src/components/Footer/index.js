@@ -1,12 +1,7 @@
-import React from "react";
-import "./style.css";
-
 function Footer() {
-  return (
-    <footer className="footer cen">
-      <span>React Porfolio</span>
-    </footer>
-  );
+    return(
+        <h1>this is a footer</h1>
+    )
 }
 
-export default Footer;
+export default Footer

@@ -1,53 +1,8 @@
-.tm-intro-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.myContainer {
+    border: 7px solid red;
+    margin: 20em;
 }
 
-.abground {
+img {
     width: 100%;
-    min-height: 600px;
-    background-image: linear-gradient(to bottom, #d59254, #cf7693);
-}
-
-.abpa {
-    text-align: center;
-    font-size: 3.5rem;
-    text-shadow: 2px 2px 2px rgb(139, 130, 130);
-}
-
-.abbtn {
-    height: 10em;
-    position: relative;
-}
-
-.abbtnCen {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
-
-.contain {
-    margin-top: 40px;
-    text-align: center;
-}
-
-.githubBtn {
-    font-family: "Playfair Display", serif;
-    font-size: 20px;
-    width: 200px;
-    padding: 10px;
-    background-color: rgba(199, 161, 34, 0);
-    border-style: solid;
-    border-color: black;
-    margin-top: 30px;
-}
-
-.login {
-    text-align: center;
-    font-size: 3.5rem;
-    text-shadow: 2px 2px 2px rgb(139, 130, 130);
 }

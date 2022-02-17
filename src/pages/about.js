@@ -1,30 +1,29 @@
-import React, { Component } from "react";
-import Me from "../components/Me"
+import React, { useEffect, useState } from 'react'
 
-class About extends Component {
-  render() {
+function About() {
+    const [githubName, setgithubName] = useState('')
+    const [githubBio, setgithubBio] = useState('')
+    const [githubLocation, setgithubLocation] = useState('')
+
+
+    useEffect(() => {
+        fetch('https://api.github.com/users/dnsghd49')
+            .then(res => res.json())
+            .then(data => {
+                setgithubName(data.name)
+                setgithubBio(data.bio)
+                setgithubLocation(data.location)
+            })
+    }, [])
+
     return (
-      <div className="abground">
-
-        <p className="abpa">Aaron's Github Page</p>
-        <p class="contain">
-          Here you can see Ayron's project through Github his page! those projects are not so great, normal looking projects so don't expect some crazy magicall stuff xD
-          <br />The button below will guid you to my Github page.
-        </p>
-
-        <div className="abpa">
-          <a className="nav-link tm-nav-link" href="https://github.com/dnsghd49">
-            <button type="submit" className="githubBtn">GitHub</button>
-          </a>
-          <Me />
+        <div className="App">
+            <h1>About ME</h1>
+            <p>{githubName}</p>
+            <p>{githubBio}</p>
+            <p>{githubLocation}</p>
         </div>
-      </div>
     );
-  }
 }
 
-
-
-
-
-export default About;
+export default About

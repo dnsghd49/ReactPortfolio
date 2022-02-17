@@ -1,26 +1,26 @@
-import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Main from "./pages/Main";
-import About from "./pages/about";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Wrapper from "./components/Wrapper";
-import idkyet from "./pages/idkyet";
-import "./App.css";
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import './App.css';
+import Navitem from './components/Nav';
+import Home from './pages/Home';
+import About from './pages/About';
+import MusicLib from './pages/MusicLib';
+import MoleAim from './pages/MoleAim';
+import Gallery from './pages/Gallery'
 
 function App() {
   return (
-    <Router>
-      <div className="only">
-        <Navbar />
-        <Wrapper>
-          <Route exact path="/" component={Main} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/idkyet" component={idkyet} />
-        </Wrapper>
-        <Footer />
-      </div>
-    </Router>
+    <div className="App">
+      <BrowserRouter>
+        <Navitem />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/e-gallery" element={<Gallery />} />
+          <Route path="/moleaim" element={<MoleAim />} />
+          <Route path="/musiclib" element={<MusicLib />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
