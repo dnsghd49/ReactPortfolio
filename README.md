@@ -26,7 +26,7 @@ Welcome to my Portfolio page!
 
 ## Screenshot
 
-![ScreenShot](https://raw.github.com/dnsghd49/ReactPortfolio/main/screenshots/screenshot.PNG)
+![ScreenShot](https://raw.github.com/dnsghd49/ReactPortfolio/main/public/screenshots/notyet)
 
 ## Installation
 
